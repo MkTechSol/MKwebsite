@@ -44,7 +44,8 @@ defineProps({
 <style scoped>
 @media (max-width: 1024px) {
   .responsive-height {
-    height: 100% !important;
+    height: 235vh !important;
+    margin-bottom: 15rem !important;
   }
 }
 </style>
