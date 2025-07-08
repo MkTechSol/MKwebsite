@@ -73,11 +73,18 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 
+
+
+import emily from '../../../assets/Images/emily.png'
+import jon from '../../../assets/Images/jon.png'
+import kani from '../../../assets/Images/kani.png'
+
+
 const teamMembers = [
   {
     name: 'Emily',
     role: 'Front End Developer',
-    image: '/src/assets/Images/emily.png',
+    image: emily,
     social: [
       { name: 'facebook', link: '#' },
       { name: 'instagram', link: '#' },
@@ -87,7 +94,7 @@ const teamMembers = [
   {
     name: 'Jon arshaf',
     role: 'Marketer',
-    image: '/src/assets/Images/jon.png',
+    image: jon,
     social: [
       { name: 'facebook', link: '#' },
       { name: 'instagram', link: '#' },
@@ -97,7 +104,7 @@ const teamMembers = [
   {
     name: 'Kani Jon',
     role: 'Designer',
-    image: '/src/assets/Images/kani.png',
+    image: kani,
     social: [
       { name: 'facebook', link: '#' },
       { name: 'instagram', link: '#' },
@@ -107,7 +114,7 @@ const teamMembers = [
   {
     name: 'Kani Jon',
     role: 'Designer',
-    image: '/src/assets/Images/emily.png',
+    image: emily,
     social: [
       { name: 'facebook', link: '#' },
       { name: 'instagram', link: '#' },

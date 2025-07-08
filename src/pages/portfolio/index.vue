@@ -13,29 +13,35 @@
 <script setup>
 import PortfolioSection from '../../components/UI/PortfolioSection.vue'
 
+import ektiar from '../../assets/Portfolio/ektiar.png'
+import hyundai from '../../assets/Portfolio/hyundai.png'
+import geely from '../../assets/Portfolio/geely.png'
+
+
+
 const websiteProjects = [
-    { image: '/src/assets/Portfolio/ektiar.png', title: 'Al-Ektiar', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/hyundai.png', title: 'Hyundai', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/geely.png', title: 'Geely', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/hyundai.png', title: 'Hyundai', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/ektiar.png', title: 'Al-Ektiar', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/geely.png', title: 'Geely', technology: 'Magento' },
+    { image: ektiar, title: 'Al-Ektiar', technology: 'Magento' },
+    { image: hyundai, title: 'Hyundai', technology: 'Magento' },
+    { image: geely, title: 'Geely', technology: 'Magento' },
+    { image: hyundai, title: 'Hyundai', technology: 'Magento' },
+    { image: ektiar, title: 'Al-Ektiar', technology: 'Magento' },
+    { image: geely, title: 'Geely', technology: 'Magento' },
 
     // ... more
 ]
 
 const mobileProjects = [
-    { image: '/src/assets/Portfolio/geely.png', title: 'Geely', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/hyundai.png', title: 'Hyundai', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/ektiar.png', title: 'Al-Ektiar', technology: 'Magento' },
+    { image: geely, title: 'Geely', technology: 'Magento' },
+    { image: hyundai, title: 'Hyundai', technology: 'Magento' },
+    { image: ektiar, title: 'Al-Ektiar', technology: 'Magento' },
     // ...
 ]
 
 const crmProjects = [
 
-    { image: '/src/assets/Portfolio/geely.png', title: 'Geely', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/hyundai.png', title: 'Hyundai', technology: 'Magento' },
-    { image: '/src/assets/Portfolio/ektiar.png', title: 'Al-Ektiar', technology: 'Magento' },
+    { image: geely, title: 'Geely', technology: 'Magento' },
+    { image: hyundai, title: 'Hyundai', technology: 'Magento' },
+    { image: ektiar, title: 'Al-Ektiar', technology: 'Magento' },
     // ...
 ]
 </script>

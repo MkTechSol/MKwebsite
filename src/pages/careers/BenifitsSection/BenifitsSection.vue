@@ -31,12 +31,19 @@
 </template>
 
 <script setup>
+import icon1 from '../../../assets/Icons/1.png'
+import icon2 from '../../../assets/Icons/2.png'
+import icon3 from '../../../assets/Icons/3.png'
+import icon4 from '../../../assets/Icons/4.png'
+import icon5 from '../../../assets/Icons/5.png'
+import icon6 from '../../../assets/Icons/6.png'
+
 const benefits = [
-  { title: 'Free Lunches', imgUrl: '/src/assets/Icons/1.png' },
-  { title: 'In house Trainings & Certifications', imgUrl: '/src/assets/Icons/2.png' },
-  { title: 'Yearly Trips', imgUrl: '/src/assets/Icons/3.png' },
-  { title: 'Parties and Birthday Celebrations', imgUrl: '/src/assets/Icons/4.png' },
-  { title: 'MK TechSol Assemblies', imgUrl: '/src/assets/Icons/5.png' },
-  { title: 'Eidi & other Festive Bonuses', imgUrl: '/src/assets/Icons/6.png'}
+  { title: 'Free Lunches', imgUrl: icon1 },
+  { title: 'In house Trainings & Certifications', imgUrl: icon2 },
+  { title: 'Yearly Trips', imgUrl: icon3 },
+  { title: 'Parties and Birthday Celebrations', imgUrl: icon4 },
+  { title: 'MK TechSol Assemblies', imgUrl: icon5 },
+  { title: 'Eidi & other Festive Bonuses', imgUrl: icon6 },
 ]
 </script>

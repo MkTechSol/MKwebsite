@@ -93,6 +93,11 @@ import { ref } from 'vue'
 import Dropdown from 'primevue/dropdown'
 import { computed } from 'vue'
 
+import home from '../../assets/Images/home.png'
+import heart from '../../assets/Images/heart.png'
+import page from '../../assets/Images/page.png'
+
+
 const pricingCards = computed(() =>
     pricingBase.map(card => ({
         ...card,
@@ -121,10 +126,13 @@ const currencies = [
 const selectedPlan = ref(plans[0])
 const selectedCurrency = ref(currencies[0])
 
+
+
+
 const pricingBase = [
     {
         title: 'Basic',
-        imgUrl: '/src/assets/Images/home.png',
+        imgUrl: home,
         description: 'Perfect for startups, entrepreneurs, and small businesses looking to establish a strong and professional digital presence without breaking the bank.',
         features: ['Up to 7 Pages', '$2,400 ($200 Discount)', 'Email & chat support'],
         prices: {
@@ -134,7 +142,7 @@ const pricingBase = [
     },
     {
         title: 'Standard',
-        imgUrl: '/src/assets/Images/heart.png',
+        imgUrl: heart,
         description: 'Ideal for growing businesses that require enhanced features, better performance, and the flexibility to scale as their needs evolve.',
         features: ['Up to 14 Pages', '$4,800 ($400 Discount)', 'SEO & analytics integration'],
         prices: {
@@ -144,7 +152,7 @@ const pricingBase = [
     },
     {
         title: 'Premium',
-        imgUrl: '/src/assets/Images/page.png',
+        imgUrl: page,
         description: 'An all-in-one solution tailored for businesses seeking advanced functionality, complete customization, and enterprise-level performance.',
         features: ['15 Pages or More', '$8,160 ($640 Discount)', 'API integrations'],
         prices: {

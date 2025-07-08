@@ -68,12 +68,14 @@
 import { ref, computed } from 'vue'
 import Paginator from 'primevue/paginator'
 
+import blog from '../../assets/Images/blog.png'
+
 // Blog List
 const blogs = Array.from({ length: 40 }, (_, i) => ({
   title: `Blog Post #${i + 1}: 5 Proven Strategies for growing Your Brand on Instagram`,
   description:
     'Instagram has become a powerful platform for brands looking to connect with their audience, build brand awareness, and drive...',
-  image: '/src/assets/Images/blog.png',
+  image: blog,
   date: '18',
   month: 'Dec',
   year: '2025',

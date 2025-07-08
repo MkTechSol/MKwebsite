@@ -33,12 +33,24 @@
 import TechStackSection from './TechStackSection/TechStackSection.vue';
 import FaqsSection from './FaqsSection/FaqsSection.vue';
 
+
+
+import web from '../../assets/Images/web.png'
+import app from '../../assets/Images/app.png'
+import ui from '../../assets/Images/ui.png'
+import appeng from '../../assets/Images/app-eng.png'
+import market from '../../assets/Images/market-research.png'
+import product from '../../assets/Images/product-management.png'
+import custom from '../../assets/Images/custom.png'
+import cloud from '../../assets/Images/cloud.png'
+import security from '../../assets/Images/security.png'
+
 const services = [
   {
     title: 'Website Development',
     description:
       'We specialize in crafting cross-platform mobile apps for iOS and Android using Flutter. Our focus is on user-friendly, feature-rich apps with responsive design and intuitive interfaces.',
-    iconSrc: '/src/assets/Images/web.png',
+    iconSrc: web,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -46,7 +58,7 @@ const services = [
     title: 'App Development',
     description:
       'We excel in building scalable web applications, covering front-end and back-end development, and leveraging cloud-based solutions for accessibility and reliability.',
-    iconSrc: '/src/assets/Images/app.png',
+    iconSrc: app,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -54,7 +66,7 @@ const services = [
     title: 'UI/UX Design',
     description:
       'We design intuitive, engaging, and visually stunning digital experiences. Our UI/UX design service focuses on user-centered design principles to create websites, apps, and platforms.',
-    iconSrc: '/src/assets/Images/ui.png',
+    iconSrc: ui,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -62,7 +74,7 @@ const services = [
     title: 'Application Re-Engineering',
     description:
       'Revitalize and future-proof your legacy systems. Our re-engineering service transforms outdated software into modern, scalable, and high-performance solutions.',
-    iconSrc: '/src/assets/Images/app-eng.png',
+    iconSrc: appeng,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -70,7 +82,7 @@ const services = [
     title: 'Market Research',
     description:
       'Make smarter business decisions with data-driven insights. Our research service helps you understand your audience, trends, and competitor landscape.',
-    iconSrc: '/src/assets/Images/market-research.png',
+    iconSrc: market,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -78,7 +90,7 @@ const services = [
     title: 'Product Branding',
     description:
       'We craft distinctive product identities that captivate and convert. Services include naming, logo creation, packaging design, and brand messaging.',
-    iconSrc: '/src/assets/Images/product-management-blue.png',
+    iconSrc: product,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -86,7 +98,7 @@ const services = [
     title: 'Custom S/W Development',
     description:
       'We design and develop custom software tailored to your specific business needs. From automation tools to complex enterprise solutions, our software is built to be scalable, secure, and future-ready—helping you stay ahead in a competitive market.',
-    iconSrc: '/src/assets/Images/custom.png',
+    iconSrc: custom,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -94,7 +106,7 @@ const services = [
     title: 'Cloud Engineering & DevOps',
     description:
       'We help businesses move faster and scale smarter with our cloud and DevOps services. From cloud infrastructure setup to CI/CD automation, we ensure high availability, seamless deployment, and optimized performance across your digital systems.',
-    iconSrc: '/src/assets/Images/cloud.png',
+    iconSrc: cloud,
     titleColor: '#6C92D0',
     bgSplitColor: '#E1EDFF',
   },
@@ -102,7 +114,7 @@ const services = [
     title: 'Application Security Audit',
     description:
       'We help businesses move faster and scale smarter with our cloud and DevOps services. From cloud infrastructure setup to CI/CD automation, we ensure high availability, seamless deployment, and optimized performance across your digital systems.',
-    iconSrc: '/src/assets/Images/security.png',
+    iconSrc: security,
     titleColor: '#FF543E',
     bgSplitColor: '#EB8F8352',
   },

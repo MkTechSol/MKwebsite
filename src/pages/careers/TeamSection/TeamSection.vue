@@ -32,46 +32,56 @@
 </template>
 
 <script setup>
+import sami from '../../../assets/Team/sami.png'
+import haroon from '../../../assets/Team/haroon.png'
+import saud from '../../../assets/Team/saud.png'
+import ali from '../../../assets/Team/ali.png'
+import amna from '../../../assets/Team/amna.png'
+import alishba from '../../../assets/Team/alishba.png'
+import asad from '../../../assets/Team/asad.png'
+import waris from '../../../assets/Team/waris.png'
+
 const team = [
   {
     name: 'Sami Ullah',
     role: 'CEO',
-    image: '/src/assets/Team/sami.png',
+    image: sami,
   },
   {
-    name: 'Haroon khan',
-    role: 'UIUX Designer',
-    image: '/src/assets/Team/haroon.png',
+    name: 'Haroon Khan',
+    role: 'UI/UX Designer',
+    image: haroon,
   },
   {
-    name: 'Saud khan',
+    name: 'Saud Khan',
     role: 'Laravel Developer',
-    image: '/src/assets/Team/saud.png',
+    image: saud,
   },
   {
-    name: 'Ali haider',
+    name: 'Ali Haider',
     role: 'CTO',
-    image: '/src/assets/Team/ali.png'
+    image: ali,
   },
   {
-    name: 'Amna khan',
-    role: 'uiux designer',
-    image: '/src/assets/Team/amna.png',
+    name: 'Amna Khan',
+    role: 'UI/UX Designer',
+    image: amna,
   },
   {
     name: 'Alishba Malick',
-    role: 'Php Developer',
-    image: '/src/assets/Team/alishba.png',
+    role: 'PHP Developer',
+    image: alishba,
   },
   {
     name: 'Asad Ullah',
-    role: 'Php Developer',
-    image: '/src/assets/Team/asad.png',
+    role: 'PHP Developer',
+    image: asad,
   },
   {
     name: 'Waris Jadoon',
-    role: 'QA engineer',
-    image: '/src/assets/Team/waris.png',
+    role: 'QA Engineer',
+    image: waris,
   },
 ]
 </script>
+

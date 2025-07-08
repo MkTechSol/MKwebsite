@@ -45,21 +45,25 @@
 </template>
 
 <script setup>
+ import one from '../../../assets/Images/ektiar.png'
+ import two from '../../../assets/Images/hyundai.png'
+ import three from '../../../assets/Images/geely.png'
+
 const projects = [
   {
     title: 'Al-Ektiar',
     subtitle: 'Developed in Magento',
-    image: '/src/assets/Images/ektiar.png', // replace with your path
+    image: one, // replace with your path
   },
   {
     title: 'Hyundai',
     subtitle: 'Developed in Magento',
-    image: '/src/assets/Images/hyundai.png', // replace with your path
+    image: two, // replace with your path
   },
   {
     title: 'Geely',
     subtitle: 'Developed in Magento',
-    image: '/src/assets/Images/geely.png', // replace with your path
+    image: three, // replace with your path
   },
 ]
 </script>

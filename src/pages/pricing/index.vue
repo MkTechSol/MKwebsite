@@ -37,16 +37,19 @@
 <script setup>
 import OurProcessSection from './OurProcessSection/OurProcessSection.vue'
 
+import upload from '../../assets/Icons/upload.png'
+import target from '../../assets/Icons/target.png'
+import payment from '../../assets/Icons/payment.png'
 
 const reasons = [
     {
         title: 'Hassle-Free Publishing',
-        icon: '/src/assets/Icons/upload.png', // replace with actual icon path
+        icon: upload, // replace with actual icon path
         points: ['No developer account needed – we publish it for you.'],
     },
     {
         title: 'Compliance-First Approach',
-        icon: '/src/assets/Icons/target.png', // replace with actual icon path
+        icon: target, // replace with actual icon path
         points: [
             'Compliance-first approach',
             'Dedicated technical team for update and bug resolution.',
@@ -54,7 +57,7 @@ const reasons = [
     },
     {
         title: 'Affordable & Predictable',
-        icon: '/src/assets/Icons/payment.png', // replace with actual icon path
+        icon: payment, // replace with actual icon path
         points: [
             'Fixed weekly rates with discounted annual billing.',
             'Transparent, professional service for your peace of mind.',

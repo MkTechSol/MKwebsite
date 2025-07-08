@@ -29,34 +29,42 @@
 </template>
 
 <script setup>
+
+import vision from '../../../assets/Icons/vision.png'
+import mission from '../../../assets/Icons/mission.png'
+import support from '../../../assets/Icons/support.png'
+import award from '../../../assets/Icons/award.png'
+
 const cards = [
   {
     title: 'Our Vision',
     description:
       'Our vision is to become a worldwide leader in providing cutting-edge technology solutions that enable businesses to unlock their full potential and achieve lasting, sustainable growth.',
     bg: 'bg-[#4EA5F2]',
-    imgUrl: '/src/assets/Icons/vision.png'
+    imgUrl: vision,
   },
   {
     title: 'Our Mission',
     description:
       'Our mission is to deliver impactful digital solutions by leveraging advanced technologies, prioritizing client needs, and maintaining the highest standards of excellence — empowering every business we work with to thrive and grow.',
     bg: 'bg-[#FF543E]',
-    imgUrl: '/src/assets/Icons/mission.png'
+    imgUrl: mission,
   },
   {
     title: 'Our Supports',
     description:
       'Our commitment doesn’t end with project delivery. We provide ongoing support, regular updates, and proactive maintenance to keep your systems running flawlessly and your business moving forward.',
     bg: 'bg-[#6FE3B4]',
-    imgUrl: '/src/assets/Icons/support.png'
+    imgUrl: support,
   },
   {
     title: 'Our Awards',
     description:
       'MK Techsol is proud to be recognized for its excellence in innovation, client satisfaction, and exceptional project delivery—earning praise and awards from industry leaders and respected organizations.',
     bg: 'bg-[#6C92D0]',
-    imgUrl: '/src/assets/Icons/award.png'
+    imgUrl: award,
   },
 ]
+
+
 </script>

@@ -25,7 +25,7 @@
                                     {{ review.name }}
                                 </span>
                             </div>
-                            <img :src="index === 0 ? '/src/assets/Images/red.png' : '/src/assets/Images/blue.png'"
+                            <img :src="index === 0 ? red : blue"
                                 class="w-12" alt="">
 
                         </div>
@@ -60,32 +60,41 @@
 <script setup>
 import { ref } from 'vue'
 
+
+import avatar from '../../../assets/Images/client1.png'
+import red from '../../../assets/Images/red.png';
+import blue from '../../../assets/Images/blue.png';
+
+
 const dialogVisible = ref(false)
+
+
+
 
 const reviews = [
     {
         name: 'Erick Pedersen',
         message:
             'MK Techsol has been a game-changer for our company. From building a robust e-commerce platform to ensuring seamless scalability, their team demonstrated exceptional professionalism and expertise. The communication was transparent, and the project was delivered on time and within budget. Highly recommend them for custom web solutions!',
-        avatar: '/src/assets/Images/client1.png'
+        avatar
     },
     {
         name: 'Erick Pedersen',
         message:
             'MK Techsol has been a game-changer for our company. From building a robust e-commerce platform to ensuring seamless scalability, their team demonstrated exceptional professionalism and expertise.',
-        avatar: '/src/assets/Images/client1.png'
+        avatar
     },
     {
         name: 'Jane Doe',
         message:
             'They built our custom CMS in record time and were always quick to respond to changes.',
-        avatar: '/src/assets/Images/client1.png'
+        avatar
     },
     {
         name: 'Michael Lee',
         message:
             'We hired MK Techsol for SEO and saw a massive jump in traffic within 3 months.',
-        avatar: '/src/assets/Images/client1.png'
+        avatar
     }
 ]
 </script>

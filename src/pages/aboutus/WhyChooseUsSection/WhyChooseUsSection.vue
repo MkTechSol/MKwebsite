@@ -36,26 +36,31 @@
 </template>
 
 <script setup>
+import why1 from '../../../assets/Images/why-1.png'
+import why2 from '../../../assets/Images/why-2.png'
+import why3 from '../../../assets/Images/why-3.png'
+import why4 from '../../../assets/Images/why-4.png'
+
 const cards = [
   {
     title: 'Proven Expertise',
     text: 'Our team is made up of top-tier professionals with extensive experience in web development, software solutions, and cutting-edge technologies. With a proven track record of diverse and successful projects, we have the skills and insight to bring your vision to life.',
-    image: '/src/assets/Images/why-1.png',
+    image: why1,
   },
   {
     title: 'Client-Centric Approach',
     text: 'We put your goals first, crafting custom solutions that align seamlessly with your business needs. Our process is built on transparency, collaboration, and consistent communication—ensuring you’re always informed and involved every step of the way.',
-    image: '/src/assets/Images/why-2.png',
+    image: why2,
   },
   {
     title: 'Commitment to Quality',
     text: 'We build solutions that are robust, scalable, and designed for the future. Through rigorous testing and adherence to industry best practices, we ensure your project surpasses performance and reliability standards.',
-    image: '/src/assets/Images/why-3.png',
+    image: why3,
   },
   {
     title: 'Comprehensive 24/7 Support',
     text: 'Our commitment goes beyond project delivery. Whether it’s maintenance, updates, or troubleshooting, our dedicated support team is always available to keep your business running seamlessly.',
-    image: '/src/assets/Images/why-4.png',
+    image: why4,
   },
 ]
 </script>

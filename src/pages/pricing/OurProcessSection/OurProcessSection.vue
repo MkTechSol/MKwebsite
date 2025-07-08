@@ -27,10 +27,15 @@
 </template>
 
 <script setup>
+import processAudit from '../../../assets/Images/process-audit.png'
+import processASO from '../../../assets/Images/process-aso.png'
+import processLaunch from '../../../assets/Images/process-launch.png'
+import processSupport from '../../../assets/Images/process-support.png'
+
 const steps = [
   {
     title: 'Initial App Audit',
-    image: '/src/assets/Images/process-audit.png',
+    image: processAudit,
     points: [
       'Review app content, features, and data collection practices.',
       'Ensure app is compliant with Google Play & App Store guidelines.',
@@ -39,7 +44,7 @@ const steps = [
   },
   {
     title: 'App Store Optimization (ASO)',
-    image: '/src/assets/Images/process-aso.png',
+    image: processASO,
     points: [
       'Suggest app name, keywords, and description improvements.',
       'Create compliant store listings (icons, screenshots, videos).'
@@ -47,14 +52,14 @@ const steps = [
   },
   {
     title: 'Publishing & Launch',
-    image: '/src/assets/Images/process-launch.png',
+    image: processLaunch,
     points: [
       'Submit app to Play Store & App Store using our verified developer accounts.'
     ]
   },
   {
     title: 'Post-Launch Support & Maintenance',
-    image: '/src/assets/Images/process-support.png',
+    image: processSupport,
     points: [
       'Provide weekly monitoring and compliance checks.',
       'Perform updates as required by user or platform policy changes.',
@@ -63,3 +68,4 @@ const steps = [
   }
 ]
 </script>
+

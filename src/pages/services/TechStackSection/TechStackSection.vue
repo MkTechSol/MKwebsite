@@ -26,26 +26,49 @@
 </template>
 
 <script setup>
+import wordpress from '../../../assets/TechStack/wordpress.png'
+import woocommerce from '../../../assets/TechStack/woocommerce.png'
+import laravel from '../../../assets/TechStack/laravel.png'
+import shopify from '../../../assets/TechStack/shopify.png'
+import php from '../../../assets/TechStack/php.png'
+import mysql from '../../../assets/TechStack/mysql.png'
+import jquery from '../../../assets/TechStack/jquery.png'
+import javascript from '../../../assets/TechStack/javascript.png'
+import nodejs from '../../../assets/TechStack/nodejs.png'
+import angular from '../../../assets/TechStack/angular.png'
+import vue from '../../../assets/TechStack/vue.png'
+import react from '../../../assets/TechStack/react.png'
+import github from '../../../assets/TechStack/github.png'
+import atlassian from '../../../assets/TechStack/atlassian.png'
+import slack from '../../../assets/TechStack/slack.png'
+import trello from '../../../assets/TechStack/trello.png'
+import basecamp from '../../../assets/TechStack/basecamp.png'
+import asana from '../../../assets/TechStack/asana.png'
+import drupal from '../../../assets/TechStack/drupal.png'
+import joomla from '../../../assets/TechStack/joomla.png'
+
 const techStack = [
-  { name: 'WordPress', src: '/src/assets/TechStack/wordpress.png' },
-  { name: 'WooCommerce', src: '/src/assets/TechStack/woocommerce.png' },
-  { name: 'Laravel', src: '/src/assets/TechStack/laravel.png' },
-  { name: 'Shopify', src: '/src/assets/TechStack/shopify.png' },
-  { name: 'PHP', src: '/src/assets/TechStack/php.png' },
-  { name: 'MySQL', src: '/src/assets/TechStack/mysql.png' },
-  { name: 'jQuery', src: '/src/assets/TechStack/jquery.png' },
-  { name: 'JavaScript', src: '/src/assets/TechStack/javascript.png' },
-  { name: 'Node.js', src: '/src/assets/TechStack/nodejs.png' },
-  { name: 'Angular', src: '/src/assets/TechStack/angular.png' },
-  { name: 'Vue.js', src: '/src/assets/TechStack/vue.png' },
-  { name: 'React', src: '/src/assets/TechStack/react.png' },
-  { name: 'GitHub', src: '/src/assets/TechStack/github.png' },
-  { name: 'Atlassian', src: '/src/assets/TechStack/atlassian.png' },
-  { name: 'Slack', src: '/src/assets/TechStack/slack.png' },
-  { name: 'Trello', src: '/src/assets/TechStack/trello.png' },
-  { name: 'Basecamp', src: '/src/assets/TechStack/basecamp.png' },
-  { name: 'Asana', src: '/src/assets/TechStack/asana.png' },
-  { name: 'Drupal', src: '/src/assets/TechStack/drupal.png' },
-  { name: 'Joomla', src: '/src/assets/TechStack/joomla.png' },
+  { name: 'WordPress', src: wordpress },
+  { name: 'WooCommerce', src: woocommerce },
+  { name: 'Laravel', src: laravel },
+  { name: 'Shopify', src: shopify },
+  { name: 'PHP', src: php },
+  { name: 'MySQL', src: mysql },
+  { name: 'jQuery', src: jquery },
+  { name: 'JavaScript', src: javascript },
+  { name: 'Node.js', src: nodejs },
+  { name: 'Angular', src: angular },
+  { name: 'Vue.js', src: vue },
+  { name: 'React', src: react },
+  { name: 'GitHub', src: github },
+  { name: 'Atlassian', src: atlassian },
+  { name: 'Slack', src: slack },
+  { name: 'Trello', src: trello },
+  { name: 'Basecamp', src: basecamp },
+  { name: 'Asana', src: asana },
+  { name: 'Drupal', src: drupal },
+  { name: 'Joomla', src: joomla },
 ]
+
+
 </script>

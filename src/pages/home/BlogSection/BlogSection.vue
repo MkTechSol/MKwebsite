@@ -56,12 +56,17 @@
 </template>
 
 <script setup>
+
+import blog1 from '../../../assets/Images/blog1.png'
+import blog2 from '../../../assets/Images/blog2.png'
+import blog3 from '../../../assets/Images/blog3.png'
+
 const blogs = [
   {
     title: '5 Proven Strategies for growing Your Brand on Instagram',
     description:
       'Instagram has become a powerful platform for brands looking to connect with their audience, build brand awareness, and drive...',
-    image: '/src/assets/Images/blog1.png',
+    image: blog1,
     day: '18',
     month: 'Dec',
     year: '2025',
@@ -70,7 +75,7 @@ const blogs = [
     title: 'Top 10 Python Libraries For faster and Smarter development',
     description:
       'Python has emerged as one of the most popular programming languages, largely due to its simplicity, readability, and extensive...',
-    image: '/src/assets/Images/blog2.png',
+    image: blog2,
     day: '18',
     month: 'Dec',
     year: '2025',
@@ -79,7 +84,7 @@ const blogs = [
     title: 'Top Tools Every software developer Should know in 2024',
     description:
       'In the fast-paced world of software development, staying updated with the latest tools is crucial for maintaining productivity...',
-    image: '/src/assets/Images/blog3.png',
+    image: blog3,
     day: '18',
     month: 'Dec',
     year: '2025',
