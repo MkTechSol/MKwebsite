@@ -31,7 +31,7 @@
       </section>
 
       <!-- Other Footer Content -->
-      <div class="text-sm text-center bg-linear-to-t to-[#4EA5F2] from-[#6FE3B4] p-12">
+      <div class="text-sm text-center bg-linear-to-t to-[#4EA5F2] from-[#6FE3B4] p-5 lg:p-12">
         <div class="flex items-start justify-evenly flex-wrap lg:flex-nowrap space-y-10 lg:space-y-0">
 
           <!-- Left side -->
@@ -45,7 +45,7 @@
 
 
               <!-- description -->
-              <p class="text-white text-justify pl-[10px] font-light text-[15px]">MK TechSol is a registered company
+              <p class="text-white text-justify lg:pl-[10px] font-light text-[15px]">MK TechSol is a registered company
                 with the Securities &
                 Exchange Commission of Pakistan (SECP) on MK
                 Technology Pvt Ltd under the Companies Act, 2017 (XIX of 2017). MK TechSol is also a registered

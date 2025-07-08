@@ -62,7 +62,7 @@
         <AboutUs></AboutUs>
 
         <!-- Our Services -->
-        <Our-Services :services="services" height="94vh"></Our-Services>
+        <Our-Services :services="services" height="94vh" :homeHeight="true"></Our-Services>
 
         <!-- Schedule a call -->
         <div
