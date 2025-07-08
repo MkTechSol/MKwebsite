@@ -13,54 +13,25 @@ const routes = [
   {
     path: '/',
     children: [
-      {
-        path: '',
-        name: 'Home',
-        component: HomePage
-      },
-      {
-        path: 'services',
-        name: 'Services',
-        component: ServicesPage
-      },
-      {
-        path: 'about',
-        name: 'AboutUs',
-        component: AboutUsPage
-      },
-      {
-        path: 'blogs',
-        name: 'BlogsPage',
-        component: BlogsPage
-      },
-      {
-        path: 'contact',
-        name: 'ContactUs',
-        component: ContactUs
-      },
-      {
-        path: 'portfolio',
-        name: 'Portfolio',
-        component: PortfolioPage
-      },
-      {
-        path: 'pricing',
-        name: 'Pricing',
-        component: PricingPage
-      },
-      {
-        path: 'careers',
-        name: 'Careers',
-        component: CareersPage
-      }
-      // more routes go here...
+      { path: '', name: 'Home', component: HomePage },
+      { path: 'services', name: 'Services', component: ServicesPage },
+      { path: 'about', name: 'AboutUs', component: AboutUsPage },
+      { path: 'blogs', name: 'BlogsPage', component: BlogsPage },
+      { path: 'contact', name: 'ContactUs', component: ContactUs },
+      { path: 'portfolio', name: 'Portfolio', component: PortfolioPage },
+      { path: 'pricing', name: 'Pricing', component: PricingPage },
+      { path: 'careers', name: 'Careers', component: CareersPage }
     ]
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior() {
+    // This ensures scrolling to the top of the page on route change
+    return { top: 0 }
+  }
 })
 
 export default router

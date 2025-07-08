@@ -1,6 +1,6 @@
 <template>
-  <section class="py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+  <section class="py-16 bg-white my-10">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center space-y-6 lg:space-y-0">
 
       <!-- Milestone Cards -->
       <div class="grid grid-cols-2 gap-6 lg:gap-y-12 relative place-items-center">
@@ -9,10 +9,10 @@
 
         <div v-for="(item, index) in milestones" :key="index" :class="[
           'flex flex-col justify-center items-center',
-          'rounded-xl p-6 shadow-sm text-center space-y-2 transition z-10',
+          'rounded-xl px-1 py-16 lg:p-6 shadow-sm text-center space-y-2 transition z-10',
           item.color,
           'text-[#2B4A6F] font-medium',
-          'h-44 w-44' // 👈 explicitly taller than wide
+          'lg:h-44 lg:w-44 w-36 h-28' // 👈 explicitly taller than wide
         ]">
           <i :class="`pi ${item.icon} text-3xl`"></i>
           <h3 class="text-2xl font-bold">{{ item.number }}</h3>

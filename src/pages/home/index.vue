@@ -34,23 +34,23 @@
             <div
                 class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 lg:gap-16 place-items-center justify-items-center">
                 <div
-                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
+                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 p-3 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
                     <img src="../../assets/Images/nitb.png" alt="">
                 </div>
                 <div
-                    class="flex items-center justify-center bg-white shadow-lg rounded-2xl shadow-black w-28 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
+                    class="flex items-center justify-center bg-white shadow-lg rounded-2xl shadow-black w-28 p-3 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
                     <img src="../../assets/Images/ignite.png" alt="">
                 </div>
                 <div
-                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
+                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 p-3 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
                     <img src="../../assets/Images/dst.png" alt="">
                 </div>
                 <div
-                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
+                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 p-3 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
                     <img src="../../assets/Images/aws.png" alt="">
                 </div>
                 <div
-                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
+                    class="flex items-center justify-center bg-white shadow-lg rounded-md shadow-black w-28 p-3 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300">
                     <img src="../../assets/Images/ewanc.png" alt="">
                 </div>
 

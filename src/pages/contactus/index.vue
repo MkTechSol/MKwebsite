@@ -83,7 +83,7 @@
 
             <!-- Right: Contact Form -->
             <form @submit.prevent="sendEmail"
-                class="bg-[#DDF2FF] p-6 sm:p-8 rounded-2xl shadow-sm lg:w-[75%] mx-auto lg:h-[75vh] lg:flex lg:justify-between lg:flex-col">
+                class="bg-[#DDF2FF] p-6 w-full rounded-2xl shadow-sm lg:w-[75%] mx-auto lg:h-[75vh] lg:flex lg:justify-between lg:flex-col">
 
                 <div class="mb-4">
                     <input type="text" v-model="formData.name" placeholder="Your name"
@@ -134,7 +134,7 @@ import * as emailjs from '@emailjs/browser'
 
 // Initialize the SDK (optional but good practice)
 onMounted(() => {
-  emailjs.init('jYc50CfKE7uVVrwYI') // ✅ your public key
+  emailjs.init('3cwvqS5jXMTgdoxpo') // ✅ your public key
 })
 
 const formData = ref({
@@ -153,7 +153,7 @@ const sendEmail = () => {
   success.value = false
   error.value = false
 
-  emailjs.send('service_gjvwi9j', 'template_9mbxaao', {
+  emailjs.send('service_vv70rko', 'template_6gmf8ta', {
     from_name: formData.value.name,
     from_email: formData.value.email,
     subject: formData.value.subject,
