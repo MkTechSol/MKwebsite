@@ -1,6 +1,6 @@
 <template>
 
-    <div class="relative flex flex-col overflow-y-visible max-w-full mb-10 lg:mb-72 p-10 bg-gradient-to-b from-[var(--color-gradient-from)] to-[var(--color-gradient-to)]"
+    <div class="relative flex flex-col overflow-y-visible max-w-full mb-10 lg:mb-72 p-10 bg-gradient-to-b from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] responsive-height"
         :style="{ height: height }">
 
 
