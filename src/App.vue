@@ -1,7 +1,5 @@
 <template>
-  <defaultLayout>
-    <router-view />
-  </defaultLayout>
+  <defaultLayout />
 </template>
 
 <script setup>

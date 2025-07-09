@@ -1,19 +1,23 @@
 <template>
+  <section>
 
-  <!-- Hero Section -->
-  <hero-section title="Take the lead in change"></hero-section>
 
-  <!-- Life at MK section -->
-  <life-at-mk-section></life-at-mk-section>
+    <!-- Hero Section -->
+    <hero-section title="Take the lead in change"></hero-section>
 
-  <!-- Job Section -->
-  <JobsSection></JobsSection>
+    <!-- Life at MK section -->
+    <life-at-mk-section></life-at-mk-section>
 
-  <!-- Benifits Section -->
-  <benifits-section></benifits-section>
+    <!-- Job Section -->
+    <JobsSection></JobsSection>
 
-  <!-- Team Section -->
-  <team-section></team-section>
+    <!-- Benifits Section -->
+    <benifits-section></benifits-section>
+
+    <!-- Team Section -->
+    <team-section></team-section>
+
+  </section>
 </template>
 
 <script setup>

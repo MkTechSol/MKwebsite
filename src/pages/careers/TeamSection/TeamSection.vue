@@ -1,13 +1,13 @@
 <template>
   <section class="px-4 lg:px-0 mt-10">
-    <div class="max-w-7xl mx-auto px-4 lg:px-16 text-center bg-gradient-to-r from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] rounded-md lg:rounded-[40px] py-16 ">
+    <div class="max-w-7xl mx-auto px-4 lg:px-16 text-center bg-gradient-to-r from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] rounded-md lg:rounded-[40px] py-16 animation-fadeup ">
       <!-- Tag -->
-      <p class="w-fit px-6 py-2.5  mb-2.5 text-sm font-semibold text-[var(--color-accent-text)] bg-white rounded-md">
+      <p class="w-fit px-6 py-2.5  mb-2.5 text-sm font-semibold text-[var(--color-accent-text)] bg-white rounded-md animation-fadeup">
         Team
       </p>
 
       <!-- Heading -->
-      <h2 class="text-left text-3xl font-semibold mb-12 text-white">
+      <h2 class="text-left text-3xl font-semibold mb-12 text-white animation-fadeup">
         Our leadership and <span class="text-[var(--color-red-text)]">mentors</span>
       </h2>
 
@@ -21,10 +21,10 @@
           <img
             :src="member.image"
             :alt="member.name"
-            class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover shadow-md hover:scale-90 duration-300"
+            class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover shadow-md hover:scale-90 duration-300 animation-fadeup"
           />
-          <h3 class="text-white font-semibold text-sm mt-4">{{ member.name }}</h3>
-          <p class="text-white text-xs">{{ member.role }}</p>
+          <h3 class="text-white font-semibold text-sm mt-4 animation-fadeup">{{ member.name }}</h3>
+          <p class="text-white text-xs animation-fadeup">{{ member.role }}</p>
         </div>
       </div>
     </div>

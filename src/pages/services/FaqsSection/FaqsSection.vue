@@ -2,12 +2,12 @@
   <section class="py-16 px-4 bg-white text-center">
     <div class="max-w-4xl mx-auto">
       <!-- Badge -->
-      <p class="inline-block px-4 py-1 mb-4 text-sm font-semibold text-blue-500 bg-blue-100 rounded-md">
+      <p class="inline-block px-4 py-1 mb-4 text-sm font-semibold text-blue-500 bg-blue-100 rounded-md animation-fadeup">
         FAQ’S
       </p>
 
       <!-- Heading -->
-      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 animation-fadeup">
         <span class="text-[#FF543E]">Frequently</span> Asked Question’s
       </h2>
 
@@ -16,15 +16,15 @@
         <div
           v-for="(faq, index) in faqs"
           :key="index"
-          class="border border-blue-300 rounded-lg overflow-hidden transition-all duration-300 cursor-pointer"
+          class="border border-blue-300 rounded-lg overflow-hidden transition-all duration-300 cursor-pointer animation-fadeup"
         >
           <!-- Question Button -->
           <button
             @click="toggle(index)"
             class="w-full flex justify-between items-center px-2 gap-2 lg:px-5 py-4 text-base font-medium text-black focus:outline-none"
           >
-            <span class="text-left">{{ faq.question }}</span>
-            <span class="text-2xl font-bold transition-all duration-200 select-none">
+            <span class="text-left animation-fadeup">{{ faq.question }}</span>
+            <span class="text-2xl font-bold transition-all duration-200 select-none animation-fadeup">
               {{ openIndex === index ? '–' : '+' }}
             </span>
           </button>

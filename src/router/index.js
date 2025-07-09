@@ -8,6 +8,8 @@ import ContactUs from '../pages/contactus/index.vue'
 import PortfolioPage from '../pages/portfolio/index.vue'
 import PricingPage from '../pages/pricing/index.vue'
 import CareersPage from '../pages/careers/index.vue'
+import NotFoundPage from '../layout/404.vue' 
+
 
 const routes = [
   {
@@ -20,7 +22,13 @@ const routes = [
       { path: 'contact', name: 'ContactUs', component: ContactUs },
       { path: 'portfolio', name: 'Portfolio', component: PortfolioPage },
       { path: 'pricing', name: 'Pricing', component: PricingPage },
-      { path: 'careers', name: 'Careers', component: CareersPage }
+      { path: 'careers', name: 'Careers', component: CareersPage },
+      {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: NotFoundPage
+      }
+
     ]
   }
 ]

@@ -1,13 +1,13 @@
 <template>
-  <section class="py-12 bg-[#F8F9FB] text-center">
+  <section class="py-12 bg-[#F8F9FB] text-center portfolio-section animation-fadeup">
     <!-- Badge -->
-    <p class="inline-block px-4 py-2 mb-4 text-sm font-semibold text-[var(--color-accent-text)] bg-blue-100 rounded-md">
+    <p class="inline-block px-4 py-2 mb-4 text-sm font-semibold text-[var(--color-accent-text)] bg-blue-100 rounded-md animation-fadeup">
       Our Portfolio
     </p>
 
     <!-- Heading -->
     <h2 class="text-3xl font-bold mb-10">
-      Our Amazing <span class="text-[var(--color-red-text)]">Projects</span>
+      Our Amazing <span class="text-[var(--color-red-text)] animation-fadeup">Projects</span>
     </h2>
 
     <!-- Project Cards -->
@@ -15,9 +15,9 @@
       <div
         v-for="(project, index) in projects"
         :key="index"
-        class="bg-white rounded-lg shadow-sm overflow-hidden border hover:scale-105 duration-300 border-gray-200 group cursor-pointer"
+        class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 group cursor-pointer animation-fadeup"
       >
-        <div class="h-[255px] bg-gray-200">
+        <div class="h-[255px] bg-gray-200 overflow-hidden">
           <img
             :src="project.image"
             :alt="project.title"
@@ -32,38 +32,35 @@
     </div>
 
     <!-- View More Button -->
-    <div class="mt-10">
+    <div class="mt-10 animation-fadeup">
       <base-link-button to="/portfolio">
         View More Portfolio
       </base-link-button>
     </div>
-
-
-
-
   </section>
 </template>
 
 <script setup>
- import one from '../../../assets/Images/ektiar.png'
- import two from '../../../assets/Images/hyundai.png'
- import three from '../../../assets/Images/geely.png'
+import one from '../../../assets/Images/ektiar.png'
+import two from '../../../assets/Images/hyundai.png'
+import three from '../../../assets/Images/geely.png'
 
 const projects = [
   {
     title: 'Al-Ektiar',
     subtitle: 'Developed in Magento',
-    image: one, // replace with your path
+    image: one,
   },
   {
     title: 'Hyundai',
     subtitle: 'Developed in Magento',
-    image: two, // replace with your path
+    image: two,
   },
   {
     title: 'Geely',
     subtitle: 'Developed in Magento',
-    image: three, // replace with your path
+    image: three,
   },
 ]
 </script>
+

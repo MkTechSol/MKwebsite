@@ -1,36 +1,39 @@
 <template>
-    <!-- Hero Section -->
-    <hero-section title="App Publishing & Hosting Services"
-        text="Welcome to our hassle-free App Publishing platform! We help individuals and businesses launch their mobile applications on the Google Play Store and Apple App Store through a fully managed publishing and maintenance process."></hero-section>
+    <section>
+        <!-- Hero Section -->
+        <hero-section title="App Publishing & Hosting Services"
+            text="Welcome to our hassle-free App Publishing platform! We help individuals and businesses launch their mobile applications on the Google Play Store and Apple App Store through a fully managed publishing and maintenance process."></hero-section>
 
 
-    <!-- App Publishing -->
-    <app-publishing :pricingLabel="true"></app-publishing>
+        <!-- App Publishing -->
+            <app-publishing :pricingLabel="true"></app-publishing>
 
-    <!-- Why Choose us -->
-    <section class="bg-gradient-to-r lg:h-[44vh] from-[#6C92D0] to-[#6FE3B4] py-16 px-4 text-white text-center">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold mb-12">Why Choose Us</h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0">
-                <div v-for="(item, i) in reasons" :key="i"
-                    class="bg-white text-[#1a1a1a] rounded-xl shadow-md p-6 lg:w-[20vw] lg:h-[30vh] flex flex-col items-center text-center">
-                    <img :src="item.icon" alt="Icon" class="w-10 h-10 mb-4" />
-                    <h3 class="text-lg font-bold text-[#1a237e] mb-2">{{ item.title }}</h3>
-                    <ul class="text-sm text-gray-700 list-disc max-w-60 space-y-1">
-                        <li v-for="(point, j) in item.points" :key="j">{{ point }}</li>
-                    </ul>
+        <!-- Why Choose us -->
+        <section class="bg-gradient-to-r lg:h-[44vh] animation-fadeup from-[#6C92D0] to-[#6FE3B4] py-16 px-4 text-white text-center mb-32">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-semibold mb-12 animation-fadeup">Why Choose Us</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 animation-fadeup">
+                    <div v-for="(item, i) in reasons" :key="i"
+                        class="bg-white text-[#1a1a1a] rounded-2xl shadow-md p-6 lg:w-[24vw] lg:h-[35vh] flex flex-col items-center text-center animation-fadeup">
+                        <img :src="item.icon" alt="Icon" class="w-10 h-10 mb-4 animation-fadeup" />
+                        <h3 class="text-lg font-bold text-[#1a237e] mb-2 animation-fadeup">{{ item.title }}</h3>
+                        <ul class="text-sm text-gray-700 list-disc max-w-60 space-y-1 mx-auto animation-fadeup">
+                            <li v-for="(point, j) in item.points" :key="j">{{ point }}</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Our Process -->
+        <OurProcessSection></OurProcessSection>
+
+        <!-- Get Started Today -->
+        <hero-section title="Get Started Today" class="animation-fadeup"
+            text="Ready to publish your app? Reach out to us with your APK/IPA file and app details, and we’ll take care of the rest. For custom packages or bulk uploads, contact our support team for a quote."></hero-section>
     </section>
-
-    <!-- Our Process -->
-    <OurProcessSection></OurProcessSection>
-
-    <!-- Get Started Today -->
-     <hero-section title="Get Started Today" text="Ready to publish your app? Reach out to us with your APK/IPA file and app details, and we’ll take care of the rest. For custom packages or bulk uploads, contact our support team for a quote."></hero-section>
-
 </template>
 
 

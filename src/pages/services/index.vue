@@ -7,7 +7,7 @@
     <Our-Process></Our-Process>
 
     <!-- Our Services -->
-    <our-services :services="services" height="130vh" :serviceHeight="true"></our-services>
+    <our-services :services="services" height="120vh" :serviceHeight="true"></our-services>
 
     <!-- App Publishing -->
     <AppPublishing></AppPublishing>
@@ -17,8 +17,8 @@
 
     <!-- Heading -->
     <div
-      class="w-full h-56 bg-gradient-to-b from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] flex flex-col items-center justify-center text-white text-center">
-      <h3 class="text-2xl md:text-4xl font-semibold pb-1 px-1">
+      class="w-full h-56 bg-gradient-to-b from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] flex flex-col items-center justify-center text-white text-center animation-fadeup">
+      <h3 class="text-2xl md:text-4xl font-semibold pb-1 px-1 animation-fadeup">
         Need Business Friendly Hiring Models?
       </h3>
     </div>

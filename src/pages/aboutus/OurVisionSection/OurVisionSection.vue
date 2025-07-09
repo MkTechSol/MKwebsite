@@ -1,25 +1,25 @@
 <template>
-  <section class="py-16 px-4 bg-[#F0FAF8]">
+  <section class="py-16 px-4 bg-[#F0FAF8] animation-fadeup">
     <div class="max-w-6xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-white text-left">
         <div
           v-for="(card, i) in cards"
           :key="i"
-          :class="['rounded-2xl px-6 pb-6 pt-20 flex flex-col justify-between min-h-[280px] relative', card.bg]"
+          :class="['rounded-2xl px-6 pb-6 pt-20 flex flex-col justify-between min-h-[280px] relative animation-fadeup', card.bg]"
         >
           <!-- Icon Top -->
-          <div class="text-4xl mb-4 absolute left-6 top-8">
+          <div class="text-4xl mb-4 absolute left-6 top-8 animation-fadeup">
             <img :src="card.imgUrl" alt="icon" class="w-7">
           </div>
 
           <!-- Title & Description -->
           <div>
-            <h3 class="text-xl font-bold mb-3">{{ card.title }}</h3>
-            <p class="text-sm leading-relaxed">{{ card.description }}</p>
+            <h3 class="text-xl font-bold mb-3 animation-fadeup">{{ card.title }}</h3>
+            <p class="text-sm leading-relaxed animation-fadeup">{{ card.description }}</p>
           </div>
 
           <!-- Icon Bottom Right -->
-          <div class="flex justify-end mt-4 text-2xl absolute right-6 bottom-4">
+          <div class="flex justify-end mt-4 text-2xl absolute right-6 bottom-4 animation-fadeup">
             <img :src="card.imgUrl" alt="icon" class="opacity-30 w-7">
           </div>
         </div>

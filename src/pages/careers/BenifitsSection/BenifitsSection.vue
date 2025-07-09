@@ -2,26 +2,26 @@
   <section class="py-16">
     <div class="max-w-6xl mx-auto px-4 text-center">
       <!-- Tag -->
-      <p class="inline-block px-4 py-2 mb-2 text-sm font-semibold text-[var(--color-accent-text)] bg-blue-100 rounded-md">
+      <p class="inline-block px-4 py-2 mb-2 text-sm font-semibold text-[var(--color-accent-text)] bg-blue-100 rounded-md animation-fadeup">
         Benefits
       </p>
 
       <!-- Heading -->
-      <h2 class="text-3xl font-bold mb-12">
+      <h2 class="text-3xl font-bold mb-12 animation-fadeup">
         MK TechSol <span class="text-[var(--color-red-text)]">Benefits</span>
       </h2>
 
       <!-- Benefits Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 animation-fadeup">
         <div
           v-for="(benefit, index) in benefits"
           :key="index"
-          class="border border-blue-300 rounded-md p-6 text-center hover:shadow transition"
+          class="border border-blue-300 rounded-md p-6 text-center hover:shadow transition animation-fadeup"
         >
-          <div class=" mb-2 flex items-center justify-center">
+          <div class=" mb-2 flex items-center justify-center animation-fadeup">
             <img :src="benefit.imgUrl" alt="">
           </div>
-          <h3 class="text-base font-semibold text-black">
+          <h3 class="text-base font-semibold text-black animation-fadeup">
             {{ benefit.title }}
           </h3>
         </div>

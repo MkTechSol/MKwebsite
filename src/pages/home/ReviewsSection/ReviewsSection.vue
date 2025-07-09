@@ -1,8 +1,8 @@
 <template>
-    <section class="bg-gradient-to-b from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] py-16 text-white text-center">
+    <section class="bg-gradient-to-b from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] py-16 text-white text-center animation-fadeup">
         <div class="max-w-5xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-4">Customer’s Reviews</h2>
-            <p class="text-base md:text-lg mb-10">
+            <h2 class="text-3xl font-bold mb-4 animation-fadeup">Customer’s Reviews</h2>
+            <p class="text-base md:text-lg mb-10 animation-fadeup">
                 MK Techsol is a trusted web design and development company in Pakistan, delivering impactful
                 digital solutions. From websites to eCommerce and marketing, our global clients reflect our
                 commitment to quality and results.
@@ -10,7 +10,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div v-for="(review, index) in reviews.slice(0, 2)" :key="index" :class="[
-                    'rounded-xl bg-white p-6 text-left shadow-lg relative overflow-hidden flex flex-col justify-between',
+                    'rounded-xl bg-white p-6 text-left shadow-lg relative overflow-hidden flex flex-col justify-between animation-fadeup',
                     index === 0 ? 'border-l-8 border-[#FF543E]' : 'border-l-8 border-[#2E68BA]'
                 ]">
                     <p class="text-sm text-gray-800 mb-6">
@@ -35,7 +35,7 @@
 
             <!-- Button -->
             <button @click="dialogVisible = true"
-                class="mt-10 px-8 py-3 border border-white rounded-full text-white font-medium transition hover:bg-white/10 hover:border-white/30 cursor-pointer">
+                class="mt-10 px-8 py-3 border border-white rounded-full text-white font-medium transition hover:bg-white/10 hover:border-white/30 cursor-pointer animation-fadeup">
                 All Reviews
             </button>
         </div>

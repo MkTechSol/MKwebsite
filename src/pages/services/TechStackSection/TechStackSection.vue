@@ -1,13 +1,13 @@
 <template>
-  <section class="py-16 px-4 bg-[#F1FCF9] text-center">
+  <section class="py-16 px-4 bg-[#F1FCF9] animation-fadeup text-center">
     <div class="max-w-7xl mx-auto">
       <!-- Subheading Badge -->
-      <p class="inline-block px-4 py-2 mb-4 text-sm font-semibold text-[var(--color-accent-text)] bg-blue-100 rounded-md">
+      <p class="inline-block px-4 py-2 mb-4 text-sm font-semibold text-[var(--color-accent-text)] bg-blue-100 rounded-md animation-fadeup">
         Technologies we work on
       </p>
 
       <!-- Heading -->
-      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 animation-fadeup">
         Our <span class="text-[#FF543E]">Development</span> Stack
       </h2>
 
@@ -16,9 +16,9 @@
         <div
           v-for="(tech, index) in techStack"
           :key="index" :title="tech.name"
-          class="bg-white w-24 h-24 lg:w-44 lg:h-24 rounded-xl shadow flex items-center justify-center transition hover:scale-105 cursor-pointer"
+          class="bg-white w-24 h-24 lg:w-44 lg:h-24 rounded-xl shadow flex items-center justify-center transition hover:scale-105 cursor-pointer animation-fadeup"
         >
-          <img :src="tech.src" :alt="tech.name" class="max-w-[60%] max-h-[60%] object-contain" />
+          <img :src="tech.src" :alt="tech.name" class="max-w-[60%] max-h-[60%] object-contain animation-fadeup" />
         </div>
       </div>
     </div>

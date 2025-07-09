@@ -1,13 +1,18 @@
 <template>
-    <hero-section title="Projects"></hero-section>
-    <PortfolioSection heading="Website" textColor="text-[#FF3F6C]" bgColor="bg-[#F4FFFB]" :projects="websiteProjects">
-    </PortfolioSection>
+    <section>
 
-    <PortfolioSection heading="Mobile Apps" textColor="text-[#FF3F6C]" bgColor="bg-[#EAF7FF]"
-        :projects="mobileProjects"></PortfolioSection>
+        <hero-section title="Projects"></hero-section>
+        
+        <PortfolioSection heading="Website" textColor="text-[#FF3F6C]" bgColor="bg-[#F4FFFB]"
+            :projects="websiteProjects">
+        </PortfolioSection>
 
-    <PortfolioSection heading="CRM" textColor="text-[#FF3F6C]" bgColor="bg-[#FFEFED]" :projects="crmProjects">
-    </PortfolioSection>
+        <PortfolioSection heading="Mobile Apps" textColor="text-[#FF3F6C]" bgColor="bg-[#EAF7FF]"
+            :projects="mobileProjects"></PortfolioSection>
+
+        <PortfolioSection heading="CRM" textColor="text-[#FF3F6C]" bgColor="bg-[#FFEFED]" :projects="crmProjects">
+        </PortfolioSection>
+    </section>
 </template>
 
 <script setup>

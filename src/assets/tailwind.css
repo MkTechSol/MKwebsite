@@ -7,16 +7,19 @@
 }
 
 :root {
+  color-scheme: light;
   --color-gradient-from: #4FA7EF;  
   --color-gradient-to: #6EE2B6;      
   --color-accent-text: #6C92D0;      
-  --color-red-text: #FF543E;         
+  --color-red-text: #FF543E;   
+  --homeHeight: '100vh';      
 }
-
-
+  
 
 body{
     font-family: var(--font-Poppins);
+    background-color: #fff !important;
+    color: #000 !important;
 }
 
 /* Header */
@@ -80,6 +83,16 @@ body{
 
 
 
+
+/* hero section`s Partners */
+/* Animate Cards with Stagger */
+.brand-card {
+  @apply flex items-center justify-center bg-white/500 shadow-sm rounded-md w-28 p-3 h-24 lg:w-40 lg:h-28 cursor-pointer hover:-translate-y-2.5 duration-300;
+  
+}
+
+
+
 /* Footer */
 .footer-nav-link{
     @apply text-white hover:text-[#8274ff] transition-colors duration-200 ;
@@ -105,3 +118,45 @@ body{
     color: #0077B5;
     background:white;
  }
+
+
+
+ /* animations */
+
+ 
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* Animate heading section */
+.animation-fadeup {
+  animation: fadeUp ease both;
+  animation-timeline: view(75% 5%);
+}
+
+
+@keyframes autoBlur {
+  0% {
+   filter: blur(40px);
+  }
+  45%, 55%{
+filter: blur(0px);
+  }
+  100% {
+    filter: blur(40px);
+  }
+}
+
+.autoBlur{
+  animation: autoBlur linear both;
+  animation-timeline: view();
+}

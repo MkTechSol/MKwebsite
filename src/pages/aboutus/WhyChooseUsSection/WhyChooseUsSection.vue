@@ -2,30 +2,30 @@
   <section class="py-16 px-4 bg-white text-center">
     <div class="max-w-6xl mx-auto">
       <!-- Badge -->
-      <p class="inline-block px-4 py-2 mb-4 text-sm font-semibold text-[var(--color-accent-text)] bg-[#EDF3FC] rounded-md">
+      <p class="inline-block px-4 py-2 mb-4 text-sm font-semibold text-[var(--color-accent-text)] bg-[#EDF3FC] rounded-md animation-fadeup">
         Why Choose Us
       </p>
 
       <!-- Heading -->
-      <h2 class="text-3xl md:text-4xl font-bold mb-10">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10 animation-fadeup">
         Innovation, <span class="text-[#FF543E]">expertise</span>, and a <br />
         client-first approach
       </h2>
 
       <!-- Cards Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left animation-fadeup">
         <div v-for="(card, i) in cards" :key="i"
-          class="flex flex-col sm:flex-row bg-white rounded-3xl border border-[#4EAFEF] overflow-hidden shadow-md">
+          class="flex flex-col sm:flex-row bg-white rounded-3xl border border-[#4EAFEF] overflow-hidden shadow-md animation-fadeup">
           <img :src="card.image" alt="image" class="w-full h-full sm:w-1/2 object-cover" />
           <div class="p-5 sm:w-1/2 flex flex-col justify-center">
-            <h3 class="font-semibold text-base sm:text-lg mb-2">{{ card.title }}</h3>
+            <h3 class="font-semibold text-base sm:text-lg mb-2 animation-fadeup">{{ card.title }}</h3>
             <p class="text-sm text-gray-600">{{ card.text }}</p>
           </div>
         </div>
       </div>
 
       <!-- Button -->
-      <div class="mt-12">
+      <div class="mt-12 animation-fadeup">
         <button
           class="px-10 py-3 rounded-full bg-gradient-to-r from-[var(--color-gradient-from)] to-[var(--color-gradient-to)] text-white font-semibold hover:brightness-105">
           Read more

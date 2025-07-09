@@ -4,13 +4,13 @@
 
             <!-- pricing -->
             <p v-if="pricingLabel"
-                class="px-8 py-2 mb-3 bg-[#E7EEF7] text-[var(--color-accent-text)] w-fit mx-auto font-semibold rounded-md">Pricing</p>
+                class="px-8 py-2 mb-3 bg-[#E7EEF7] text-[var(--color-accent-text)] w-fit mx-auto font-semibold rounded-md animation-fadeup">Pricing</p>
 
             <!-- Heading -->
-            <h2 class="text-3xl md:text-4xl font-bold mb-3">
+            <h2 class="text-3xl md:text-4xl font-bold mb-3 animation-fadeup">
                 <span class="text-[var(--color-red-text)]">App Publishing</span> & Hosting Services
             </h2>
-            <p class="text-gray-700 text-sm md:text-base max-w-3xl mx-auto mb-6">
+            <p class="text-gray-700 text-sm md:text-base max-w-3xl mx-auto mb-6 animation-fadeup">
                 Welcome to our hassle-free App Publishing platform! We help individuals and businesses launch their
                 mobile applications on the Google Play Store and Apple App Store through a fully managed publishing
                 and maintenance process.
@@ -19,14 +19,14 @@
             <!-- Filters -->
             <div class="flex items-start justify-between !mt-7 flex-col lg:flex-row">
 
-                <p>For more details on all our pricing visit <router-link to="/AppPublishing"
+                <p class="animation-fadeup">For more details on all our pricing visit <router-link to="/AppPublishing"
                         class="text-blue-600 hover:underline">here</router-link></p>
 
                 <div
                     class="flex flex-col lg:flex-row items-start lg:items-center justify-center gap-3 lg:gap-4 mb-0 lg:mb-10 p-4 lg:p-0">
-                    <span class="text-sm">Plan</span>
+                    <span class="text-sm animation-fadeup">Plan</span>
                     <Dropdown v-model="selectedPlan" :options="plans" optionLabel="label"
-                        class="w-fit h-7 flex items-center justify-center text-sm" style="
+                        class="w-fit h-7 flex items-center justify-center text-sm animation-fadeup" style="
                        --p-select-border-radius: 9999px;
                        --p-select-background: #CBD5E0;
                        --p-select-color: white;
@@ -36,9 +36,9 @@
 
 
 
-                    <span class="text-sm">Select currency</span>
+                    <span class="text-sm animation-fadeup">Select currency</span>
                     <Dropdown v-model="selectedCurrency" :options="currencies" optionLabel="label"
-                        class="w-fit h-7 flex items-center justify-center text-sm " style="
+                        class="w-fit h-7 flex items-center justify-center text-sm animation-fadeup" style="
                        --p-select-border-radius: 9999px;
                        --p-select-background: #CBD5E0;
                        --p-select-color: white;
@@ -48,19 +48,19 @@
             </div>
 
             <!-- Pricing Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4 lg:mt-12">
+            <div class="grid grid-cols-1  lg:grid-cols-3 gap-6  mt-4 lg:mt-12">
                 <div v-for="(card, i) in pricingCards" :key="i" :class="[
-                    'bg-white border border-[#4EAFEF] flex flex-col justify-between overflow-hidden h-[68vh] w-[43vh] mx-auto',
+                    'bg-white border border-[#4EAFEF] flex flex-col justify-between overflow-hidden h-[68vh] w-[43vh] mx-auto animation-fadeup',
                     i === 1 ? 'lg:-translate-y-6' : ''
                 ]">
                     <div class="p-6 text-left">
                         <div class="flex items-center justify-between mb-8">
-                            <h3 class="text-2xl text-center font-semibold mb-2">{{ card.title }}</h3>
+                            <h3 class="text-2xl text-center font-semibold mb-2 ">{{ card.title }}</h3>
                             <img :src="card.imgUrl" alt="icon">
                         </div>
-                        <p class="text-2xl font-bold text-[var(--color-red-text)] mb-10 text-center">{{ card.price }}</p>
-                        <p class="text-sm text-gray-600 mb-6">{{ card.description }}</p>
-                        <ul class="space-y-4 text-sm w-full">
+                        <p class="text-2xl font-bold text-[var(--color-red-text)] mb-10 text-center ">{{ card.price }}</p>
+                        <p class="text-sm text-gray-600 mb-6 ">{{ card.description }}</p>
+                        <ul class="space-y-4 text-sm w-full ">
                             <li v-for="(feature, idx) in card.features" :key="idx"
                                 class="flex items-center gap-2 mx-auto w-[80%]">
                                 <span class="text-xl text-[#4EA5F2]">•</span>
@@ -79,7 +79,7 @@
             </div>
 
             <!-- View All Button -->
-            <div class="mt-12 lg:mt-20">
+            <div class="mt-12 lg:mt-20 animation-fadeup">
                 <base-link-button to="/pricing">
                     View all
                 </base-link-button>
