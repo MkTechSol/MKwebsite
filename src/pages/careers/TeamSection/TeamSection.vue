@@ -8,7 +8,7 @@
 
       <!-- Heading -->
       <h2 class="text-left text-3xl font-semibold mb-12 text-white animation-fadeup">
-        Our leadership and <span class="text-[var(--color-red-text)]">mentors</span>
+        Our leadership and <span class="text-[var(--color-red-text)]">mentors Testing</span>
       </h2>
 
       <!-- Grid -->
