@@ -57,7 +57,7 @@ const projects = [
     image: two,
   },
   {
-    title: 'Geely',
+    title: 'asdsa',
     subtitle: 'Developed in Magento',
     image: three,
   },

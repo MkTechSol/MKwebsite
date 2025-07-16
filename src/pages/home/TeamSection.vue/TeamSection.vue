@@ -72,6 +72,8 @@ import svg1 from '../../../assets/Icons/svg1.png'
 import svg2 from '../../../assets/Icons/svg2.png'
 import svg3 from '../../../assets/Icons/svg3.png'
 
+
+
 const teamMembers = [
   {
     name: 'Emily',

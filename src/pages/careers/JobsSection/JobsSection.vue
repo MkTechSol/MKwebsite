@@ -74,5 +74,15 @@ const jobs = [
     time: '9:00 am – 5:00 pm',
     tag: 'Designer'
   }
+  ,
+  {
+    type: 'Remote',
+    mode: 'part Time',
+    title: 'UIUX Designer & Product Designer',
+    location: 'Rawalpindi',
+    salary: '35k–90k',
+    time: '9:00 am – 5:00 pm',
+    tag: 'Designer'
+  }
 ]
 </script>
