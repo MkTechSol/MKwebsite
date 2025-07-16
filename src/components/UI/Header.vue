@@ -212,7 +212,7 @@
             <!-- Contact No -->
             <div class="flex items-center justify-center gap-4 cursor-pointer">
                 <i class="pi pi-phone text-[#6C92D0] pt-0.5 w-1"></i>
-                <span class="text-sm">+92 0345 885 539</span>
+                <span class="text-sm">+92 341 89 00 999</span>
             </div>
 
             <!-- Contact Us -->
