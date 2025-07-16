@@ -95,8 +95,7 @@
             <div class="flex flex-col items-start justify-start text-white space-y-3">
               <p class="max-w-[260px] text-justify">Al-Nawaz Arcade, Adjacent to Rawalpindi Urology Hospital, Murree Road Rawalpindi.</p>
               <p>info@mktechsol.com</p>
-              <p>+92 341 088 99 658</p>
-              <p>+92 341 088 99 658</p>
+              <p>+92 341 89 00 999</p>
             </div>
           </div>
 
