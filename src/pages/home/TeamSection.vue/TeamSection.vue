@@ -12,7 +12,7 @@
 
       <div class="relative overflow-visible">
         <div
-          class="flex flex-col md:flex-row gap-6 lg:gap-9 items-center md:items-end justify-center transition-all duration-500 overflow-visible  animation-fadeup">
+          class="flex flex-col md:flex-row gap-6 lg:gap-9 items-center md:items-end justify-center transition-all duration-500 overflow-visible animation-fadeup">
           <div
             v-for="(member, index) in visibleMembers"
             :key="index"
@@ -23,7 +23,7 @@
             ]"
           >
             <div class="relative h-72 md:h-80 bg-[#2E68BA] rounded-t-xl overflow-visible">
-              <img :src="member.svg" alt="" class="absolute animation-fadeup" :class="[member.name === 'Emily' ? 'left-0' : 'right-0']" />
+              <img :src="member.svg" alt="" class="absolute animation-fadeup" :class="[member.name === 'Haji Amir' ? 'left-0' : 'right-0']" />
               <img
                 :src="member.image"
                 :alt="member.name"
@@ -65,20 +65,18 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 
-import emily from '../../../assets/Images/emily.png'
-import jon from '../../../assets/Images/jon.png'
-import kani from '../../../assets/Images/kani.png'
+import hajiAmir from '../../../assets/Images/haji_amir.jpg'
+import nasibdar from '../../../assets/Images/nasibdar.png'
+import akhter from '../../../assets/Images/akhter.jpg'
 import svg1 from '../../../assets/Icons/svg1.png'
 import svg2 from '../../../assets/Icons/svg2.png'
 import svg3 from '../../../assets/Icons/svg3.png'
 
-
-
 const teamMembers = [
   {
-    name: 'Emily',
-    role: 'Front End Developer',
-    image: emily,
+    name: 'Haji Amir Nawshad',
+    role: 'CEO & Founder',
+    image: hajiAmir,
     svg: svg1,
     social: [
       { name: 'facebook', link: '#' },
@@ -87,9 +85,9 @@ const teamMembers = [
     ],
   },
   {
-    name: 'Jon arshaf',
-    role: 'Marketer',
-    image: jon,
+    name: 'Nasib Dar',
+    role: 'GM & Co-Founder',
+    image: nasibdar,
     svg: svg2,
     social: [
       { name: 'facebook', link: '#' },
@@ -98,9 +96,9 @@ const teamMembers = [
     ],
   },
   {
-    name: 'Kani Jon',
-    role: 'Designer',
-    image: kani,
+    name: 'Akhter',
+    role: 'GM ',
+    image: akhter,
     svg: svg3,
     social: [
       { name: 'facebook', link: '#' },
@@ -167,10 +165,9 @@ const prevSlide = () => {
   }
 }
 
-/* Enable scroll-driven animation */
 .team-card {
   animation-name: teamFadeSlide;
-  animation-duration: 1ms; /* Required for Firefox */
+  animation-duration: 1ms;
   animation-timing-function: ease-out;
   animation-fill-mode: both;
   animation-timeline: view(block 25% 10%);
