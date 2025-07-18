@@ -7,7 +7,7 @@
       </p>
       <h2 class="text-3xl font-bold mb-8 animation-fadeup">
         Connect with our <span class="text-[#FF543E]">skilled</span> team and <br />
-        tap into their <span class="text-[#FF543E]">expertise (Testing text)</span>.
+        tap into their <span class="text-[#FF543E]">expertise</span>.
       </h2>
 
       <div class="relative overflow-visible">
